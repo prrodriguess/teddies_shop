@@ -9,7 +9,7 @@ class OrdersController < ApplicationController
             name: teddy.sku,
             images: [teddy.photo_url],
             amount: teddy.price_cents,
-            currency: 'eur',
+            currency: 'gbp',
             quantity: 1
           }],
           success_url: order_url(order),
